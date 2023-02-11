@@ -1,0 +1,25 @@
+@media screen and (min-width:240px) and (max-width:480px){
+    nav {
+        display: none;
+    }
+
+    section {
+        width: fit-content;
+    }
+
+    .home, .about {
+        flex-direction: column;
+    }
+
+    .home img {
+        display: none;
+    }
+
+    .hometitle h2, h3 {
+        font-size: 100%;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+}

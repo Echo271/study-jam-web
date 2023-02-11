@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#home, #skill {
+    background-color: #92B4EC;
+}
+
+.logo p, .footer-title h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Home */
+
+.home, .about {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.hometitle h3{
+    font-size: 200%;
+}
+
+.hometitle h1{
+    font-size: 300%;
+}
+
+.hometitle h2{
+    font-size: 200%;
+    padding-bottom: 30px;
+}
+
+.profilepic img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* About */
+
+.aboutpic img {
+    width: 250px;
+}
+
+.abouttext {
+    text-align: center;
+}
+
+.abouttext h3 {
+    font-size: 300%;
+}
+
+/* Skill */
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#skill h2 {
+    font-size: 300%;
+    text-align: center;
+}
+
+.cards {
+    width: 20%;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 25px;
+}
+
+.cards svg {
+    color: #92B4EC;
+}
+
+.cards h3 {
+    padding: 30px 0px 20px;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+.account ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.account a {
+    color: #92B4EC;
+}
+
+.account li {
+    padding: 0px 20px;
+}
+
+.mail input {
+    padding: 20px 10px;
+    margin: 10px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+input {
+    background-color: rgb(189, 189, 189);
+    border: 0;
+}
+
+textarea {
+    margin-left: 10px;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 189);
+    border: 0;
+}
+
+.send-button {
+    background-color: #92B4EC;
+}
+
+/* footer */
+
+.sub-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    padding: 50px 0px;
+}
+
+.sub-footer ul {
+    list-style: none;
+}
+
+.sub-footer a{
+    color: white;
+}
+
+.footer-closed {
+    text-align: center;
+}
