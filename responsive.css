@@ -1,4 +1,5 @@
-@media screen and (min-width:240px) and (max-width:480px){
+@media screen and (max-width: 480px) and (min-width: 240px) {
+
     nav {
         display: none;
     }
@@ -7,19 +8,95 @@
         width: fit-content;
     }
 
-    .home, .about {
+    .home,
+    .about {
         flex-direction: column;
+    }
+
+    .hometitle h2,
+    h3 {
+        font-size: 100%;
+    }
+
+    .hometitle h1 {
+        font-size: 250%;
     }
 
     .home img {
         display: none;
     }
 
-    .hometitle h2, h3 {
-        font-size: 100%;
+    .hometitle p {
+        text-align: center;
+        padding: 30px 0px;
     }
 
+    /* about */
+
+    .about img {
+        width: 100%;
+    }
+
+    .abouttext {
+        padding: 10px;
+    }
+
+    /* Skill */
     .skill {
         flex-direction: column;
     }
+
+    .cards {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+    }
+
+    /* Contact */
+
+    .contact {
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        margin-left: 25%;
+    }
+
+    .account {
+        padding-bottom: 30px;
+        margin-left: 70px;
+    }
+
+    .account li {
+        padding: 0px 5px;
+    }
+
+    .mail {
+        margin: auto;
+    }
+
+    .mail input {
+        width: 120%;
+    }
+
+    textarea {
+        width: 120%;
+    }
+
+    /* footer */
+
+    .sub-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-service {
+        padding-top: 30px;
+    }
+
+    .nav-footer {
+        padding-top: 30px;
+    }
+
 }
