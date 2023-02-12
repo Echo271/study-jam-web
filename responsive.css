@@ -99,4 +99,49 @@
         padding-top: 30px;
     }
 
+
+    .hamburger{
+        cursor:pointer
+    }
+    .bar{
+        display:block;
+        width:25px;
+        height:3px;
+        margin : 5px auto;
+        background-color:black;
+    }
+
+    .nav-menu{
+        position: absolute;
+        top:11%;
+        width:100%;
+        left:100%;
+        display:block;
+        background-color:white;
+    }
+    .nav-menu ul{
+        display:block;
+        flex-direction:column
+    }
+    .nav-item{
+        padding:20px 0;
+        text-align: center;
+        border-top:1px solid black;
+    }
+    .nav-menu.active{
+        left:0%;
+    }
+
+    .darkmode .bar{
+        background-color:white;
+    }
+
+    .darkmode .nav-menu{
+        background-color:black;
+        
+    }
+
+    .darkmode .nav-item{
+        border-top:1px solid white;
+    }
 }

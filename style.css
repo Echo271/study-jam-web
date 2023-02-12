@@ -190,3 +190,37 @@ textarea {
 .footer-closed {
     text-align: center;
 }
+
+/* darkmode */
+.darkmode, .darkmode .cards{
+    background-color:black;
+    color:white;
+}
+
+.darkmode svg{
+    color:white;
+}
+
+.darkmode #home, .darkmode #skill{
+    background-color:#121b21;
+}
+
+/* to-top */
+
+.to-top{
+    position:fixed;
+    right:5%;
+    bottom:5%;
+    color:rgb(239, 239, 239);
+    background-color:black;
+    border-radius:50%;
+    pointer-events: none;
+    box-shadow: 1px 1px 5px black;
+    opacity: 0;
+}
+
+.to-top.active{
+    opacity:1;
+    pointer-events:all;
+}
+
